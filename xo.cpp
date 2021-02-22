@@ -122,5 +122,3 @@ int main()
 	while (!kbhit()); // montazer mimanim yek kelid feshorde sahvad
 	return 0; // khaste nabashid. bazi tamaam !
 }
-
-
