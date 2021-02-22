@@ -6,8 +6,6 @@
 // be darkhaste yek dooste jadid, kami comment behesh ezafe kardam !
 // chon Jadi.net filter ast mizaramesh dar site jadidam : www.FreeKeyboard.net 
 
-
-
 #include "stdafx.h"
 #include <iostream>  // baraye khandan va neveshtan ba cout va cin
 #include "conio.h"   // baraye tabe'e kbhit dar khatte akhar ke montazere feshordane yek kelid mimanim
