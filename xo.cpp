@@ -99,12 +99,10 @@ int main()
 	TicTaToe board;
 	int x;
 	char starter;
-
 	// mikhanim ke che kasi bazi ra shoroo mikonad va aan ra moshakhas mikonim
 	cout << "Who starts (X/O) ? "; 
 	cin >> starter;   
 	board.SetTurn(((starter=='X' || starter=='x') ? 1 : 2));
-
 	// ta vaghti ke barande nadarim ya bazi mosavi nashode
 	while (!board.HaveWinner()) {
 		cout << "Player " << board.GetTurn() << " : "; // bazi ra mikhanim va anjam midahim
@@ -112,7 +110,6 @@ int main()
 		if (!board.Play(x)) // agar bazi gheyre mojaz bood
 			cout << "Illegal Move ! Try again palyer " << board.GetTurn() << "\n";
 	}
-
 	// az while kharej shode'im yani bazi barande dashte ya mosavi shode
 	if (board.HaveWinner()>0) // agar barande dashte migooyim kist
 		cout << "\n\nWoww... the winner is " << (board.HaveWinner()==1 ? "X" : "O" ) << "\n";
