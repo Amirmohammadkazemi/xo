@@ -49,7 +49,7 @@ TicTaToe::Play(int x)
 TicTaToe::HaveWinner(void)
 {
 		// in tabe moshakhas mikonad kasi barande shode ya na. be sadegi ba 2 ta for satr o sotoon
-                // ra check mikonad va ba 2 ta if, zarbdari ha ra
+        // ra check mikonad va ba 2 ta if, zarbdari ha ra
 	for (int i=0; i<3; i++) 
 		if (cell[i][0]!=0 && cell[i][0]==cell[i][1] && cell[i][1]==cell[i][2] && cell[i][2]==cell[i][0])
 			return cell[i][0];  // barande ra bar migardanim
